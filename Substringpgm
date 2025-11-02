@@ -1,0 +1,62 @@
+
+public class Substringpgm {
+	
+	public static void main(String[] args) {
+//		String S="level";
+//		
+//		System.out.println(S.substring(5));
+		
+		String S="Hacker";
+		String A="Hacker";
+		String c="royal ";
+		String d="";
+//		String A="Hacker";
+//		String c="royal";
+		
+		System.out.println(S.substring( 1 ,5));
+	
+		System.out.println(S.charAt(1));
+		System.out.println(S.compareTo(A));
+		System.out.println(S.contains(A));
+		System.out.println(S.indexOf(3));
+		System.out.println(S.charAt(2));
+		System.out.println(S.codePointAt(3));
+		System.out.println(S.codePointBefore(3));
+		System.out.println(S.codePointCount(1, 4));
+		System.out.println(S.compareTo(A)); 
+		System.out.println(S.compareToIgnoreCase(A));
+		System.out.println(S.concat(c));
+		System.out.println(S.contains(A)); //
+		System.out.println(S.endsWith("r"));
+		System.out.println(S.equals(A));
+		System.out.println(S.equals(c));
+//		System.out.println(S.formatted(c));
+		System.out.println(S.hashCode());
+		System.out.println(S.indent(9)); //Space DEta hai AAge 
+		System.out.println(S.indexOf(1));
+		System.out.println(S.indexOf("r"));
+		System.out.println(S.indexOf("r", 4)); //?
+		System.out.println(S.indexOf('r', 1, 3));
+		System.out.println(S.toUpperCase());
+		System.out.println(S.toLowerCase());
+		System.out.println(S.intern());
+		System.out.println(d.isBlank());
+		System.out.println(S.length());
+        System.out.println(S.lastIndexOf('r'));
+        System.out.println(S.matches(A));
+        System.out.println(c.repeat(3));
+        System.out.println(S.replace('r', 'R'));
+        System.out.println(S);
+        System.out.println(S.replaceAll("Hacker", "Raja"));
+        System.out.println(S.replaceFirst("H", "c"));
+        System.out.println(c.stripLeading());
+        
+
+
+		
+		
+
+		
+	}
+
+}
